@@ -1,15 +1,15 @@
 Profes:
 Moises   
 Pau  
-Jordi  
+Jordi  -----
 Faro  
 Carles  
   
 
 Aules:  
-A01    
-Asix   
+A01       -----
 A04  
+A51
 
 context:   
 S'ha trobat un rastre de sang felina, suposem que ha mort el gatRenat,
@@ -19,3 +19,6 @@ explicar la POO.
 Daw PauG 1  3 5 Jordi  3 5   
 Dam Moises 1 4 5  Pau 2 3 Jordi 2 3 5 Faro 4 5 Carles 1 4 5    
 Asix PauG 1 3 Carles 5   
+
+#ip servidor
+192.168.16.42:3000

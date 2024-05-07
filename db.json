@@ -1,13 +1,37 @@
 {
-    "posts": [
-      { "id": "1", "title": "a title", "views": 100 },
-      { "id": "2", "title": "another title", "views": 200 }
-    ],
-    "comments": [
-      { "id": "1", "text": "a comment about post 1", "postId": "1" },
-      { "id": "2", "text": "another comment about post 1", "postId": "1" }
-    ],
-    "profile": {
-      "name": "typicode"
+  "intro": [
+    {
+      "text": "S'ha trobat un rastre de sang felina, suposem que ha mort el gatRenat, el Moises esta extremadament trist, pues ja no pot fer servir de ell per explicar la POO."
     }
-  }
+  ],
+  "professors": [
+    { "id": "1", "title": "Moises"},
+    { "id": "2", "title": "Pau"},
+    { "id": "3", "title": "Jordi"},
+    { "id": "4", "title": "Faro" },
+    { "id": "5", "title": "Carles"}
+  ],
+  "aules": [
+    { "A01" :[{
+        "Dilluns": [{"Pau": [ { "Horari": "8:00 - 10:00" }]}],
+        "Dimarts": [null],
+        "Dimecres": [{"Pau": [ { "Horari": "13:00 - 14:30" }]}, {"Jordi": [ { "Horari": "9:00 - 11:00" }]}],
+        "Dijous": [null],
+        "Divendres": [null]
+    }]},
+    { "A04" :[{
+      "Dilluns": ["Moises", "Carles"],
+      "Dimarts": ["Pau", "Jordi"],
+      "Dimecres": ["Pau", "Jordi"],
+      "Dijous": ["Moises", "Carles", "Faro"],
+      "Divendres": ["Moises", "Carles", "Faro", "Jordi"]
+    }]},
+    { "A51" :[{
+      "Dilluns": ["Pau"],
+      "Dimarts": [null],
+      "Dimecres": ["Pau"],
+      "Dijous": [null],
+      "Divendres": ["Carles"]
+    }]}
+  ]
+}
