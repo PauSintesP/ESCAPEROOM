@@ -1,10 +1,10 @@
 Profes:
-Moises 
-Pau
-Jordi
-Faro
-Carles
-
+Moises   
+Pau  
+Jordi  
+Faro  
+Carles  
+  
 
 Aules:
 A01
