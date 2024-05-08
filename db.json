@@ -5,11 +5,11 @@
     }
   ],
   "professors": [
-    { "id": "1", "title": "Moises"},
-    { "id": "2", "title": "Pau"},
-    { "id": "3", "title": "Jordi"},
-    { "id": "4", "title": "Faro" },
-    { "id": "5", "title": "Carles"}
+    { "id": "1", "nom": "Moises"},
+    { "id": "2", "nom": "Pau"},
+    { "id": "3", "nom": "Jordi"},
+    { "id": "4", "nom": "Faro" },
+    { "id": "5", "nom": "Juan Luis"}
   ],
   "aules": [
     { "A01" :[{
@@ -33,5 +33,13 @@
       "Dijous": [null],
       "Divendres": ["Carles"]
     }]}
+  ],
+  "cuartades": [
+    { "nom": "Moises",
+     "text": "Jo estava a la sala de professors  millorant el prgtest, ultimament fallava molt. I també estava fent un mail a Open Ai per tancar el chat gpt. La últiam vegada que vaig veure a en GatRenat va ser rondant per la cinquena planta. Sospito del Juan Luis ja que sempre era molt distant" },
+    { "nom": "Pau", "text": "Jo estava intentat quadrar una excursio a la empresa catalana de microxips secreta , estaba a la sala de professors esperant que em diguesin les hores disponibles, després he pujat a la cinquena planta per plantejar el horari amb direcció."},
+    { "nom": "Jordi", "text": "" },
+    { "nom": "Faro", "text": "" },
+    { "nom": "Juan Luis", "text": "Estava amb en yeray solucionant un problema amb infomusic , el error estava allà, pero no hi havia manera de resoldrel, després de 1h amb el mateix problema vaig intentar contactar amb moises per que ens  ajudi amb el error 35 x-view en odoo pero no cotestava ni sabiam on estaba , jo suspito d'ell la relació que té am el seu gat es massa idil·lica." }
   ]
 }

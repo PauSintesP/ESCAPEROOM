@@ -37,11 +37,11 @@ LORE:
     
     PAU GG: La última vegada que van parlar van acabar discutint i en Pau el va amenaçar de mort. Els alumnes aseguren que en Pau li tenia molt enveja perquè usaven les seves classes per fer els seus exercicis.
 
-    JORDI: Acariciava a en Gat Renat sempre que el veia, tot i que quasi sempre es parleven quan era en Moisés.
+    JORDI: Acariciava a en Gat Renat sempre que el veia, tot i que quasi sempre que parlaven amb el gatRenat es quan hi era en Moisés.
     
     ERP JUAN LUIS: Els problemas sempre tenen solucio pero ell no en sap com solucionar-ho, a vegades demana ajuda al moisses sempre que el gat no estigui aprop perquè en te molta alergia.
 
-    FARO: El faro esteia molest amb el GatRenat ja que el Jordi li va dir que el gatRenat havia mosegat els cables ethernet.
+    FARO: El faro estava molest amb el GatRenat ja que el Jordi li va dir que el gatRenat havia mosegat els cables ethernet.
 
 
 
@@ -51,7 +51,13 @@ Quartadas :
 
         Mosises: Jo estava a la sala de professors  millorant el prgtest. ultimament fallava molt. I també estava fent un mail  a open ai per tancar el chat gpt. La ultiam vegada que vaig veure  va ser rondant per la cinquena planta. sospito del juan luis ja que sempre era molt distant
 
-        PAU:  Jo estava intentat quadrar una excursio a la 
+        PAU:  Jo estava intentat quadrar una excursio a la empresa catalana de microxips secreta , estaba a la sala de professors esperant que em diguesin les hores disponibles, despres he pujat a la cinquena planta per plantejar el horari amb direcció.
+
+        ERP JUAN LUIS: Estava amb en yeray solucionant un problema amb infomusic , el error estava allà, pero no hi havia manera de resoldrel, després de 1h amb el mateix problema vaig intentar contactar amb moises per que ens  ajudi amb el error 35 x-view en odoo pero no cotestava ni sabiam on estaba , jo suspito d'ell la relació que té am el seu gat es massa idil·lica.
+        
+        FARO
+
+        JORDI
 
 
 Ultima vegada que s'ha vist en gatRenato
