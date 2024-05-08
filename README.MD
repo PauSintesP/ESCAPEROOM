@@ -57,3 +57,7 @@ Quartadas :
 Ultima vegada que s'ha vist en gatRenato
 
     S'ha vist en gat sortint dels lavababos de la 
+
+
+
+    https://prod.liveshare.vsengsaas.visualstudio.com/join?800B50CB1B637947294E3B9B8A06E8077B0C
