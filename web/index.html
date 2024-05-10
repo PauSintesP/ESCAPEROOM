@@ -6,16 +6,37 @@
     <link rel="icon" href="images/Untitled.ico" type="image/x-icon">
 </head>
 <body>
-    
-    
-    <div id="api-data"></div>
     <div>
         <h1>Gat Renat Game</h1>
         <p>Welcome to the Gat Renat game. Click the button below to fetch the latest game data.</p>
-
+        
+        <h2>Intro</h2>
+        <div id="api-dataIntro" class="data"></div>
+        <p><a href="html/profes.html">Go to Profes</a></p>
         <h1>API Data</h1>
-        <button id="fetchData">Fetch Game Data</button>
-        <script src="Javascript/callapi.js"></script>
+        <div>
+            <button id="fetchDataProfes">Fetch Game Data Profes</button>
+            <br>
+            <div id="api-dataProfes" class="data"></div>
+        </div>
+        <br>
+        <br>
+        <div>
+            <button id="fetchDataAules">Fetch Game Data Aules </button>
+            <br>
+            <div id="api-dataAules" class="data"></div>
+        </div>
+        <br>
+        <br>
+        <div>
+            <button id="fetchDataCuartades">Fetch Game Data Aules </button>
+            <br>
+            <div id="api-dataCuartades" class="data"></div>
+        </div>
+        <script src="Javascript/index.js"></script>
     </div>
 </body>
+<footer>
+    <p><a href="html/profes.html">Go to Profes</a></p>
+</footer>
 </html>

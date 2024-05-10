@@ -1,5 +1,0 @@
-{ "id": "1", "nom": "Moises"},
-    { "id": "2", "nom": "Pau"},
-    { "id": "3", "nom": "Jordi"},
-    { "id": "4", "nom": "Faro" },
-    { "id": "5", "nom": "Juan Luis"}
