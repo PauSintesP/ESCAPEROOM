@@ -55,9 +55,11 @@ Quartadas :
 
         ERP JUAN LUIS: Estava amb en yeray solucionant un problema amb infomusic , el error estava allà, pero no hi havia manera de resoldrel, després de 1h amb el mateix problema vaig intentar contactar amb moises per que ens  ajudi amb el error 35 x-view en odoo pero no cotestava ni sabiam on estaba , jo suspito d'ell la relació que té am el seu gat es massa idil·lica.
         
-        FARO
+        FARO: Jo he pujat a la planta 4 per carregar les piles del meu altaveu manual, a última hora sempre es queda sense carrega.
 
-        JORDI
+
+
+        JORDI: El j
 
 
 Ultima vegada que s'ha vist en gatRenato

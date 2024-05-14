@@ -1,4 +1,11 @@
+function logRequest(url, method) {
+    const logDiv = document.querySelector('div');
+    const message = document.createElement('p');
+    message.textContent = `fetch ${url} amb el metode ${method}`;
+    logDiv.appendChild(message);
+}
 document.getElementById('fetchDataProfes').addEventListener('click', function() {
+    logRequest("http://localhost:3005/api/professors", 'GET');
     fetch("http://localhost:3005/api/professors")
         .then(response => response.json())
         .then(data => {
@@ -17,12 +24,13 @@ document.getElementById('fetchDataProfes').addEventListener('click', function() 
 });
 
 document.getElementById('fetchDataAules').addEventListener('click', function() {
-    fetch("http://localhost:3000/aules")
+    logRequest("http://localhost:3005/api/horari", 'GET');
+    fetch("http://localhost:3005/api/horari")
         .then(response => response.json())
         .then(data => {
             console.log('Raw data:', data); // Log the raw data
-            const names = data.filter(aules => aules !== null).map(aules => {
-                return aules.A01;
+            const names = data.filter(horari => horari  !== null).map(horari  => {
+                return horari.id + ": " + horari.nom+ "<br>";
             })
             console.log(names);
             console.log(names.join(", "));
@@ -34,7 +42,7 @@ document.getElementById('fetchDataAules').addEventListener('click', function() {
         .catch(error => console.error('Error:', error));
 });
 
-
+logRequest("http://localhost:3005/api/intro", 'GET');
 fetch("http://localhost:3005/api/intro")
     .then(response => response.json())
     .then(data => {
@@ -53,6 +61,7 @@ fetch("http://localhost:3005/api/intro")
 
 
 document.getElementById('fetchDataCuartades').addEventListener('click', function() {
+    logRequest("http://localhost:3005/api/cuartades", 'GET');
     fetch("http://localhost:3005/api/cuartades")
         .then(response => response.json())
         .then(data => {
