@@ -1,5 +1,5 @@
 document.getElementById('fetchDataProfes').addEventListener('click', function() {
-    fetch("http://localhost:3000/professors")
+    fetch("http://localhost:3005/api/professors")
         .then(response => response.json())
         .then(data => {
             console.log('Raw data:', data); // Log the raw data
@@ -20,7 +20,7 @@ document.getElementById('deleteForm').addEventListener('submit', function(event)
     event.preventDefault(); // Prevent the form from submitting and causing a page reload
 
     let idToDelete = document.getElementById('professorId').value;
-    let url = `http://localhost:3000/professors/${idToDelete}`;
+    let url = `http://localhost:3005/api/professors/${idToDelete}`;
     fetch(url, {
         method: 'DELETE',
     })

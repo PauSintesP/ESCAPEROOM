@@ -24,6 +24,25 @@ fs.readFile('db.json', (err, data) => {
     const professors = dbData.professors.map(professor => ({id: professor.id, nom: professor.nom}));
     res.json(professors);
   });
+  app.delete('/api/professors/:id', (req, res) => {
+    const { id } = req.params;
+    const professor = dbData.professors.find(professor => professor.id == id);
+
+    if (professor) {
+        res.json(professor);
+    } else {
+        res.status(404).json({message: "Professor not found"});
+    }
+  });
+  //! GET ALL AULES
+
+  //! GET INTRO
+
+  //! GET CUARTADES
+  app.get('/api/cuartades', (req, res) => {
+    const cuartades = dbData.cuartades.map(cuartades => ({nom: cuartades.nom, text: cuartades.text}));
+    res.json(cuartades);
+  });
 
   app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}/`);
