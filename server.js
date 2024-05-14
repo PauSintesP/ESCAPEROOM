@@ -37,7 +37,10 @@ fs.readFile('db.json', (err, data) => {
   //! GET ALL AULES
 
   //! GET INTRO
-
+  app.get('/api/intro', (req, res) => {
+    const intro = dbData.intro.map(intro => ({text: intro.text}));
+    res.json(intro);
+  });
   //! GET CUARTADES
   app.get('/api/cuartades', (req, res) => {
     const cuartades = dbData.cuartades.map(cuartades => ({nom: cuartades.nom, text: cuartades.text}));

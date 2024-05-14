@@ -35,7 +35,7 @@ document.getElementById('fetchDataAules').addEventListener('click', function() {
 });
 
 
-fetch("http://localhost:3000/intro")
+fetch("http://localhost:3005/api/intro")
     .then(response => response.json())
     .then(data => {
         console.log('Raw data:', data); // Log the raw data
