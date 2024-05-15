@@ -34,10 +34,16 @@ fs.readFile('db.json', (err, data) => {
         res.status(404).json({message: "Professor not found"});
     }
   });
-  //! GET ALL AULES
-
+  //! GET ALL HORARI
+  app.get('/api/horari', (req, res) => {
+    const horari = dbData.horari.map(horari => ({id: horari.id, nom: horari.nom}));
+    res.json(horari);
+  });
   //! GET INTRO
   app.get('/api/intro', (req, res) => {
+    if (!dbData.intro) {
+      return res.status(500).json({message: "Intro data not available"});
+    }
     const intro = dbData.intro.map(intro => ({text: intro.text}));
     res.json(intro);
   });
