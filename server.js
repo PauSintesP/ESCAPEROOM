@@ -36,14 +36,11 @@ fs.readFile('db.json', (err, data) => {
   });
   //! GET ALL HORARI
   app.get('/api/horari', (req, res) => {
-    const horari = dbData.horari.map(horari => ({id: horari.id, nom: horari.nom}));
+    const horari = dbData.horari.map(horari => ({id: horari.id, nom: horari.nom, image: horari.image}));
     res.json(horari);
   });
   //! GET INTRO
   app.get('/api/intro', (req, res) => {
-    if (!dbData.intro) {
-      return res.status(500).json({message: "Intro data not available"});
-    }
     const intro = dbData.intro.map(intro => ({text: intro.text}));
     res.json(intro);
   });
@@ -57,3 +54,5 @@ fs.readFile('db.json', (err, data) => {
     console.log(`Server running at http://localhost:${port}/`);
   });
 });
+
+

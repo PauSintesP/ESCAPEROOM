@@ -10,13 +10,13 @@
     { "id": 3, "nom": "Jordi"},
     { "id": 4, "nom": "Faro" },
     { "id": 5, "nom": "Juan Luis"}
-  ],
+  ], 
   "horari": [
-    { "id": 1, "nom": "Moises", "image":"link"},
-    { "id": 2, "nom": "Pau", "image":"link"},
-    { "id": 3, "nom": "Jordi","image":"li"},
-    { "id": 4, "nom": "Faro","image":"li"},
-    { "id": 5, "nom": "Juan Luis","image":"li"}
+    { "id": 1, "nom": "Moises", "image":"https://drive.google.com/file/d/1YxU5LrBhDCSgyK905y-AIRuRmU6bPcLQ/view?usp=sharing"},
+    { "id": 2, "nom": "Pau", "image":"https://imgur.com/Hl643qg"},
+    { "id": 3, "nom": "Jordi","image":"https://imgur.com/a/VPOV2da"},
+    { "id": 4, "nom": "Faro","image":"https://imgur.com/7ReAiE2"},
+    { "id": 5, "nom": "Juan Luis","image":"https://imgur.com/YyIVVJn"}
   ],
   "cuartades": [
     { "nom": "Moises",    "text": "Jo estava a la sala de professors  millorant el prgtest, ultimament fallava molt. I també estava fent un mail a Open Ai per tancar el chat gpt. La últiam vegada que vaig veure a en GatRenat va ser rondant per la cinquena planta, vaig marxar amb presa perquè vaig quedar per dinar amb el Jordi. Sospito del Juan Luis ja que sempre era molt distant" },
