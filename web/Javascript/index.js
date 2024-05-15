@@ -23,23 +23,6 @@ document.getElementById('fetchDataProfes').addEventListener('click', function() 
         .catch(error => console.error('Error:', error));
 });
 
-document.getElementById('fetchDataAules').addEventListener('click', function() {
-    fetch("http://localhost:3000/aules")
-        .then(response => response.json())
-        .then(data => {
-            console.log('Raw data:', data); // Log the raw data
-            const names = data.filter(aules => aules !== null).map(aules => {
-                return aules.A01;
-            })
-            console.log(names);
-            console.log(names.join(", "));
-
-            // Display the data
-            const apiDataDiv = document.getElementById('api-dataAules');
-            apiDataDiv.innerHTML = names.join("<br>");
-        })
-        .catch(error => console.error('Error:', error));
-});
 
 
 fetch("http://localhost:3005/api/intro")

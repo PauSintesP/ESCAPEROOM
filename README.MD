@@ -55,11 +55,7 @@ Quartadas :
 
         ERP JUAN LUIS: Estava amb en yeray solucionant un problema amb infomusic , el error estava allà, pero no hi havia manera de resoldrel, després de 1h amb el mateix problema vaig intentar contactar amb moises per que ens  ajudi amb el error ERROR server 500  en odoo pero no cotestava ni sabiam on estaba , jo suspito d'ell la relació que té am el seu gat es massa idil·lica.
         
-<<<<<<< HEAD
         FARO: Jo he pujat a la planta 4 per carregar les piles del meu altaveu manual, a última hora sempre es queda sense carrega.
-=======
-        FARO : Jo he pujat a la planta 4 per carregar les piles del meu altaveu manual, a última hora sempre es queda sense 
->>>>>>> f951ab9f79497aa17169fde20806e02ae5fc90c6
 
 
 
@@ -70,5 +66,4 @@ Ultima vegada que s'ha vist en gatRenato
 
     S'ha vist en gat sortint dels lavababos de la 
 
-
-https://prod.liveshare.vsengsaas.visualstudio.com/join?9C476FC84DE46347C43013E235BB11E6D760
+https://prod.liveshare.vsengsaas.visualstudio.com/join?5900FC7583A6C7E4D70D88EA14B9C76184E7
