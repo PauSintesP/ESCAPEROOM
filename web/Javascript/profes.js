@@ -5,7 +5,7 @@ function logRequest(url, method) {
     logDiv.appendChild(message);
 }
 
-document.getElementById('fetchDataProfes').addEventListener('click', function() {
+logRequest("http://localhost:3005/api/horari", 'GET');
     fetch("http://localhost:3005/api/professors")
         .then(response => response.json())
         .then(data => {
@@ -21,5 +21,4 @@ document.getElementById('fetchDataProfes').addEventListener('click', function() 
             apiDataDiv.innerHTML = names.join("<br>");
         })
         .catch(error => console.error('Error:', error));
-});
 

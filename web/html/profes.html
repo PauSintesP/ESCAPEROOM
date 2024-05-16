@@ -6,23 +6,28 @@
     <link rel="icon" href="../images/Untitled.ico" type="image/x-icon">
 </head>
 <body>
-    <div>
-        <h1>Professors</h1>
-        <h1>Llista de Culpables</h1>
+    <div class="main">
         <div>
-            <button id="fetchDataProfes">Mostrar Suspitosos</button>
+            <h1>Professors</h1>
+            <h1>Llista de Culpables</h1>
+            <div>
+                <div id="api-dataProfes" class="data"></div>
+            </div>
+            <form id="deleteForm">
+                <input type="number" id="professorId" placeholder="Enter professor ID">
+                <button type="submit">Delete Professor</button>
+            </form>
             <br>
-            <div id="api-dataProfes" class="data"></div>
+            <script src="../Javascript/profes.js"></script>
         </div>
-        <form id="deleteForm">
-            <input type="number" id="professorId" placeholder="Enter professor ID">
-            <button type="submit">Delete Professor</button>
-        </form>
-        
     </div>
-    <script src="../Javascript/apifetch.js"></script>
+    <br>
 </body>
 <footer>
-    <p><a href="../index.html">Tornar a la Introducció</a></p>
+    <div class="main">
+        <p><a class="link"  href="../index.html">Tornar a la Introducció</a></p>
+        <p><a class="link"  href="./coartades.html">Ves a Coartades</a></p>
+        <p><a class="link"  href="./horari.html">Ves a Horari</a></p>
+    </div>
 </footer>
 </html>

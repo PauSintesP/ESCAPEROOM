@@ -12,11 +12,11 @@
     { "id": 5, "nom": "Juan Luis"}
   ], 
   "horari": [
-    { "id": 1, "nom": "Moises", "image":"../images/pau.png"},
-    { "id": 2, "nom": "Pau", "image":"https://i.imgur.com/Hl643qg.png"},
-    { "id": 3, "nom": "Jordi","image":"https://imgur.com/a/VPOV2da"},
-    { "id": 4, "nom": "Faro","image":"https://imgur.com/7ReAiE2"},
-    { "id": 5, "nom": "Juan Luis","image":"https://imgur.com/YyIVVJn"}
+    { "id": 1, "nom": "Moises", "image":"../images/moises.png"},
+    { "id": 2, "nom": "Pau", "image":"../images/pau.png"},
+    { "id": 3, "nom": "Jordi","image":"../images/jordi.png"},
+    { "id": 4, "nom": "Faro","image":"../images/faro.png"},
+    { "id": 5, "nom": "Juan Luis","image":"../images/juan.png"}
   ],
   "cuartades": [
     { "nom": "Moises",    "text": "Jo estava a la sala de professors  millorant el prgtest, ultimament fallava molt. I també estava fent un mail a Open Ai per tancar el chat gpt. La últiam vegada que vaig veure a en GatRenat va ser rondant per la cinquena planta, vaig marxar amb presa perquè vaig quedar per dinar amb el Jordi. Sospito del Juan Luis ja que sempre era molt distant" },
