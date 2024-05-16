@@ -61,6 +61,17 @@ button {
     font-size: 30px;
 }
 
+.dataC {
+    color: black;
+    background: #52525286;
+    text-align: center;
+    padding: auto;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%; 
+    font-size: 30px;
+}
+
 #api-dataHorari {
     width: 100%;
     padding: 20px;
