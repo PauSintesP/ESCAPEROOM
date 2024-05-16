@@ -5,7 +5,6 @@ function logRequest(url, method) {
     logDiv.appendChild(message);
 }
 
-
 logRequest("http://localhost:3005/api/horari", 'GET');
 fetch("http://localhost:3005/api/intro")
     .then(response => response.json())
