@@ -1,28 +1,28 @@
 {
   "intro": [
     {
-      "text": "S'ha trobat un rastre de sang felina, suposem que ha mort el gatRenat, el Moises esta extremadament trist, pues ja no pot fer servir de ell per explicar la POO."
+      "text": "S'ha trobat un rastre de sang felina, suposem que ha mort el gat Renat, el Moisès està extremadament trist, ja que no pot fer servir d'ell per explicar la POO."
     }
   ],
   "professors": [
-    { "id": 1, "nom": "Moises"},
+    { "id": 1, "nom": "Moisès"},
     { "id": 2, "nom": "Pau"},
     { "id": 3, "nom": "Jordi"},
     { "id": 4, "nom": "Faro" },
     { "id": 5, "nom": "Juan Luis"}
   ], 
   "horari": [
-    { "id": 1, "nom": "Moises", "image":"../images/moises.png"},
+    { "id": 1, "nom": "Moisès", "image":"../images/moises.png"},
     { "id": 2, "nom": "Pau", "image":"../images/pau.png"},
     { "id": 3, "nom": "Jordi","image":"../images/jordi.png"},
     { "id": 4, "nom": "Faro","image":"../images/faro.png"},
     { "id": 5, "nom": "Juan Luis","image":"../images/juan.png"}
   ],
   "cuartades": [
-    { "nom": "Moises",    "text": "Jo estava a la sala de professors  millorant el prgtest, ultimament fallava molt. I també estava fent un mail a Open Ai per tancar el chat gpt. La últiam vegada que vaig veure a en GatRenat va ser rondant per la cinquena planta, vaig marxar amb presa perquè vaig quedar per dinar amb el Jordi. Sospito del Juan Luis ja que sempre era molt distant" },
+    { "nom": "Moises",    "text": "Jo estava a la sala de professors millorant el prgtest, últimament fallava molt. I també estava fent un mail a Open Ai per tancar el ChatGPT. L'última vegada que vaig veure a en Gat Renat va ser rondant per la cinquena planta, vaig marxar amb pressa perquè vaig quedar per dinar amb el Jordi. Sospito del Juan Luis, ja que sempre era molt distant." },
     { "nom": "Pau",       "text": "Jo estava intentat quadrar una excursio a la empresa catalana de microxips secreta , estaba a la sala de professors esperant que em diguesin les hores disponibles, després he pujat a la cinquena planta per plantejar el horari amb direcció. Sospito del Faro perquè va pujar alterat."},
     { "nom": "Jordi",     "text": "Jo estava explicant com fer un trigers a un excercici de bbdd, i després vaig quedar per anar a dinar amb el Moises, sospito del Pau perquè va marxar 1h abans molt alterat." },
-    { "nom": "Faro",      "text": "Jo he pujat a la planta 4 per carregar les piles del meu altaveu manual, a última hora sempre es queda sense carrega. Jo crec que pot ser qualsevol perquè volien robarme la idea del farosoft" },
-    { "nom": "Juan Luis", "text": "Estava amb en yeray solucionant un problema amb infomusic , el error estava allà, pero no hi havia manera de resoldrel, després de 1h amb el mateix problema vaig intentar contactar amb moises per que ens  ajudi amb el error 35 x-view en odoo pero no cotestava ni sabiam on estaba , jo suspito d'ell la relació que té am el seu gat es massa idil·lica." }
+    { "nom": "Faro",      "text": "Jo he pujat a la planta 4 per carregar les piles del meu altaveu manual, a última hora sempre es queda sense carrega. Jo crec que pot ser qualsevol perquè volien robarme la idea del farosoft." },
+    { "nom": "Juan Luis", "text": "Jo estava explicant com realitzar la pràctica d'infomusic , estava explicant com importar una herència d'un mòdul ja creat per fer una aplicació. Em vaig passar la classe solucionant errors i estava esgotat. Jo sospito d'ell la relació que té amb el seu gat és massa idíl·lica." }
   ]
 }
