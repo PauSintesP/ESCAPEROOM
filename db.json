@@ -12,8 +12,8 @@
     { "id": 5, "nom": "Juan Luis"}
   ], 
   "horari": [
-    { "id": 1, "nom": "Moises", "image":"https://drive.google.com/file/d/1YxU5LrBhDCSgyK905y-AIRuRmU6bPcLQ/view?usp=sharing"},
-    { "id": 2, "nom": "Pau", "image":"https://imgur.com/Hl643qg"},
+    { "id": 1, "nom": "Moises", "image":"../images/pau.png"},
+    { "id": 2, "nom": "Pau", "image":"https://i.imgur.com/Hl643qg.png"},
     { "id": 3, "nom": "Jordi","image":"https://imgur.com/a/VPOV2da"},
     { "id": 4, "nom": "Faro","image":"https://imgur.com/7ReAiE2"},
     { "id": 5, "nom": "Juan Luis","image":"https://imgur.com/YyIVVJn"}

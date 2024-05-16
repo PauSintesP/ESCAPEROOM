@@ -42,4 +42,6 @@ button {
     text-align: center;
     padding: auto;
     border-radius: 5px;
+    width: auto;
+    height: auto;
 }

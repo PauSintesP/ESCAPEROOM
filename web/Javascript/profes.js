@@ -1,3 +1,10 @@
+function logRequest(url, method) {
+    const logDiv = document.querySelector('div');
+    const message = document.createElement('p');
+    message.textContent = `fetch ${url} amb el metode ${method}`;
+    logDiv.appendChild(message);
+}
+
 document.getElementById('fetchDataProfes').addEventListener('click', function() {
     fetch("http://localhost:3005/api/professors")
         .then(response => response.json())
