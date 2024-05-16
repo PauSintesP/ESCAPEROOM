@@ -1,4 +1,9 @@
-import { logRequest } from './index.js';
+function logRequest(url, method) {
+    const logDiv = document.querySelector('div');
+    const message = document.createElement('p');
+    message.textContent = `fetch ${url} amb el metode ${method}`;
+    logDiv.appendChild(message);
+}
 
 logRequest("http://localhost:3005/api/horari", 'GET');
 fetch("http://localhost:3005/api/professors")
