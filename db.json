@@ -5,11 +5,11 @@
     }
   ],
   "professors": [
-    { "id": 1, "nom": "Moisès"},
-    { "id": 2, "nom": "Pau"},
-    { "id": 3, "nom": "Jordi"},
-    { "id": 4, "nom": "Faro" },
-    { "id": 5, "nom": "Juan Luis"}
+    { "id": 1, "nom": "Moisès" ,"show": true},
+    { "id": 2, "nom": "Pau","show": true},
+    { "id": 3, "nom": "Jordi","show": true},
+    { "id": 4, "nom": "Faro","show": true},
+    { "id": 5, "nom": "Juan Luis","show": true}
   ], 
   "horari": [
     { "id": 1, "nom": "Moisès", "image":"../images/moises.png"},

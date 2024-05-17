@@ -14,14 +14,16 @@ fetch("http://localhost:3005/api/horari")
             text.innerHTML = horari.id + ": " + horari.nom;
 
             const br = document.createElement('br');
-
+            const br2 = document.createElement('br');
             const img = document.createElement('img');
             img.src = horari.image;
 
             const div = document.createElement('div');
             div.appendChild(text);
-            div.appendChild(br);
             div.appendChild(img);
+            div.appendChild(br);
+            div.appendChild(br);
+            div.appendChild(br2);
 
             return div.outerHTML;
         })
