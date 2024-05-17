@@ -21,7 +21,7 @@ fs.readFile('db.json', (err, data) => {
 
   //! GET ALL PROFESSORS
   app.get('/api/professors', (req, res) => {
-    const professors = dbData.professors.map(professor => ({id: professor.id, nom: professor.nom}));
+    const professors = dbData.professors.map(professor => ({id: professor.id, nom: professor.nom, show: professor.show}));
     res.json(professors);
   });
   app.delete('/api/professors/:id', (req, res) => {
