@@ -66,4 +66,4 @@ Ultima vegada que s'ha vist en gatRenato
 
     S'ha vist en gat sortint dels lavababos de la 
 
-https://prod.liveshare.vsengsaas.visualstudio.com/join?465BEEA8AC7D732C80EF5FD7D995489F38C3
+https://prod.liveshare.vsengsaas.visualstudio.com/join?C460816A06B2E855CFA231797F7FF128B554
