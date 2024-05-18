@@ -1,4 +1,4 @@
-Profes:
+https://prod.liveshare.vsengsaas.visualstudio.com/join?C460816A06B2E855CFA231797F7FF128B554Profes:
 Moises   
 Pau  
 Jordi  -----
@@ -49,21 +49,44 @@ LORE:
 Quartadas : 
     Divendres 
 
-        Mosises: Jo estava a la sala de professors  millorant el prgtest. ultimament fallava molt. I també estava fent un mail  a open ai per tancar el chat gpt. La ultiam vegada que vaig veure  va ser rondant per la cinquena planta. sospito del juan luis ja que sempre era molt distant
+        Mosises: Jo estava a la sala de professors  millorant el prgtest. ultimament fallava molt. I també estava fent un mail, seguidament, vaig quedar amb el jordi per a dinar.
+        El jordi va venir 10 minuts tard al dinar, hem va dir que esteia molt liat corregint examens.
 
         PAU:  Jo estava intentat quadrar una excursio a la empresa catalana de microxips secreta , estaba a la sala de professors esperant que em diguesin les hores disponibles, despres he pujat a la cinquena planta per plantejar el horari amb direcció.
 
-        ERP JUAN LUIS: Estava amb en yeray solucionant un problema amb infomusic , el error estava allà, pero no hi havia manera de resoldrel, després de 1h amb el mateix problema vaig intentar contactar amb moises per que ens  ajudi amb el error ERROR server 500  en odoo pero no cotestava ni sabiam on estaba , jo suspito d'ell la relació que té am el seu gat es massa idil·lica.
+        JUAN LUIS: Estava amb en yeray solucionant un problema amb infomusic , l' error estava allà, pero no hi havia manera de resoldrel, després de 1h amb el mateix problema vaig intentar contactar amb moises per que ens  ajudi amb el error ERROR server 500  en odoo pero no cotestava ni sabiam on estaba , jo suspito d'ell la relació que té am el seu gat es massa idil·lica.
         
-        FARO: Jo he pujat a la planta 4 per carregar les piles del meu altaveu manual, a última hora sempre es queda sense carrega.
+        FARO: Jo vaig pujat a la planta 4 per carregar les piles del meu altaveu manual, a última hora sempre es queda sense carrega.
+        
+        Vaig veure al Moises corrents molt apurat, em va extrañar, ja que mai l'havia vist corrents, vaig pensar, "Sera profesor o runner?".
+
+        Seguidament em vaig posar a corregir examens fins les 14:30.
 
 
 
-        JORDI: El j
+        JORDI: Esteia molt enfadat, els meus alumnes, a primera hora no em van escoltar en cap moment, esteien tots adormits.
+
+        Just acabada la primera hora, vaig anar a una xerrada a la UPF, per sort, els alumnes de la UPF si que em van fer cas, van preguntar moltes coses i es van mostrar força curiosos.
+        Aquell dia, recordo que no vaig poder descansar ni un minut, no vaig poder menjar res amb tot el mati.
+        No ho recordo massa bé, pero crec que les seguents 2 hores vaig estar fent Oracle amb els meus alumnes de DAM A.
+
+        em vaig entretenir parlant amb el faro i despres em vaig enrecordar de que tenia un dinar amb el Moisès per parlar dels alumnes problematics de DAM B.
+
+        Vaig anar corrents cap al restaurant al fons del carrer Llacuna, no recordo com es deia.
+
+        En arribar el moisès esteia molest.
+
+
+
+
+
+
+
+
 
 
 Ultima vegada que s'ha vist en gatRenato
 
-    S'ha vist en gat sortint dels lavababos de la 
+    S'ha vist en gat sortint dels lavababos de la 5 planta
 
 https://prod.liveshare.vsengsaas.visualstudio.com/join?C460816A06B2E855CFA231797F7FF128B554

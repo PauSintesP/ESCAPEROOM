@@ -12,11 +12,14 @@
     { "id": 5, "nom": "Juan Luis","show": true}
   ], 
   "horari": [
-    { "id": 1, "nom": "Moisès", "image":"../images/moises.png"},
+    { "id": 1, "nom": "Moisès", "image":"../images/cat.png"},
     { "id": 2, "nom": "Pau", "image":"../images/pau.png"},
     { "id": 3, "nom": "Jordi","image":"../images/jordi.png"},
     { "id": 4, "nom": "Faro","image":"../images/faro.png"},
     { "id": 5, "nom": "Juan Luis","image":"../images/juan.png"}
+  ],
+  "culpable": [
+    { "id": 2, "nom": "Jordi", "image":"../images/cat.png"}
   ],
   "cuartades": [
     { "nom": "Moises", "text": "Jo vaig estar  a la sala de professors millorant el prgtest i fent un mail a Open Ai per tancar el ChatGPT, últimament fallava molt. L'última vegada que vaig veure a en Gat Renat va ser rondant per la cinquena planta, quan vaig marxar amb pressa perquè vaig quedar per dinar amb el Jordi. Sospito del Juan Luis, ja que sempre era molt distant." },

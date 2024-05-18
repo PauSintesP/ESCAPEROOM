@@ -26,10 +26,15 @@ fs.readFile('db.json', (err, data) => {
   });
   app.delete('/api/professors/:id', (req, res) => {
     const { id } = req.params;
+
+    // Check if the professor exists
     const professor = dbData.professors.find(professor => professor.id == id);
 
     if (professor) {
-        res.json(professor);
+        // Filter out the professor with the specified ID
+        dbData.professors = dbData.professors.filter(professor => professor.id != id);
+
+        res.json({message: "Professor deleted"});
     } else {
         res.status(404).json({message: "Professor not found"});
     }
