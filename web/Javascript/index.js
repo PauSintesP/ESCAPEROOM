@@ -1,7 +1,7 @@
 function logRequest(url, method) {
     const logDiv = document.querySelector('div');
     const message = document.createElement('p');
-    message.textContent = `fetch ${url} amb el metode ${method}`;
+    message.textContent = `fetch ${url} amb el mètode ${method}`;
     logDiv.appendChild(message);
 }
 

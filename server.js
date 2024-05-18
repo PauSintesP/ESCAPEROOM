@@ -14,47 +14,71 @@ fs.readFile('db.json', (err, data) => {
   // Apply CORS middleware with all origins allowed (not recommended for production)
   app.use(cors()); 
 
-  //! GET ALL DB
+  // GET ALL DB
   app.get('/api', (req, res) => {
     res.json(db);
   });
 
-  //! GET ALL PROFESSORS
+  // GET ALL PROFESSORS
   app.get('/api/professors', (req, res) => {
-    const professors = dbData.professors.map(professor => ({id: professor.id, nom: professor.nom, show: professor.show}));
+    const professors = dbData.professors.map(professor => ({id: professor.id, nom: professor.nom}));
     res.json(professors);
   });
+  // DELETE PROFESSOR
   app.delete('/api/professors/:id', (req, res) => {
     const { id } = req.params;
-
-    // Check if the professor exists
     const professor = dbData.professors.find(professor => professor.id == id);
-
     if (professor) {
-        // Filter out the professor with the specified ID
         dbData.professors = dbData.professors.filter(professor => professor.id != id);
-
         res.json({message: "Professor deleted"});
     } else {
         res.status(404).json({message: "Professor not found"});
     }
   });
-  //! GET ALL HORARI
+  //RESET PROFESSORS
+  app.post('/api/professors/reset', (req, res) => {
+      dbData.professors = [
+      { "id": 1, "nom": "Moisès"},
+      { "id": 2, "nom": "Pau"},
+      { "id": 3, "nom": "Jordi"},
+      { "id": 4, "nom": "Faro"},
+      { "id": 5, "nom": "Juan Luis"}];
+      res.json({ message: 'All professors reset to default' });
+  });
+
+  // GET ALL HORARI
   app.get('/api/horari', (req, res) => {
     const horari = dbData.horari.map(horari => ({id: horari.id, nom: horari.nom, image: horari.image}));
     res.json(horari);
   });
-  //! GET INTRO
+
+  // GET INTRO
   app.get('/api/intro', (req, res) => {
     const intro = dbData.intro.map(intro => ({text: intro.text}));
     res.json(intro);
   });
-  //! GET CUARTADES
-  app.get('/api/cuartades', (req, res) => {
-    const cuartades = dbData.cuartades.map(cuartades => ({nom: cuartades.nom, text: cuartades.text}));
-    res.json(cuartades);
+
+  // GET coartades
+  app.get('/api/coartades', (req, res) => {
+    const coartades = dbData.coartades.map(coartades => ({nom: coartades.nom, text: coartades.text}));
+    res.json(coartades);
   });
 
+  // GET CULPABLE
+  app.put('/api/culpable/:id', (req, res) => {
+    const { id } = req.params;
+    const culpable = dbData.culpable.find(culpable => culpable.id == id);
+    if (culpable) {
+        if (id == 2) {
+            culpable.trobat = true;
+        }
+        res.json({ message: `Culpable ${id} updated` });
+    } else {
+        res.status(404).json({ message: 'Culpable not found' });
+    }
+  });
+
+  //PORT
   app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}/`);
   });
