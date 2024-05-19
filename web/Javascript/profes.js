@@ -89,7 +89,7 @@ document.getElementById('myForm2').addEventListener('submit', function(event) {
     .then(data => {
         console.log('Success:', data);
         fetchAndDisplayProfessors(); // Fetch and display the updated list of professors
-        if (culpableId == 2) {
+        if (culpableId == 3) {
             window.location.href = '../html/guanyat.html'; // Redirect to the page
         }
     })

@@ -69,7 +69,7 @@ fs.readFile('db.json', (err, data) => {
     const { id } = req.params;
     const culpable = dbData.culpable.find(culpable => culpable.id == id);
     if (culpable) {
-        if (id == 2) {
+        if (id == 3) {
             culpable.trobat = true;
         }
         res.json({ message: `Culpable ${id} updated` });
