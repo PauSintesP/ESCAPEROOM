@@ -15,7 +15,7 @@ fetch("http://localhost:3005/api/coartades")
         })
         console.log(names);
         console.log(names.join(", "));
-        //  CGLLM
+        
         const apiDataDiv = document.getElementById('api-datacoartades');
         apiDataDiv.innerHTML = names.join("<br>","<br>");
     })
