@@ -24,3 +24,14 @@ fetch("http://localhost:3005/api/intro")
         apiDataDiv.innerHTML = elements.join("<br>");
     })
     .catch(error => console.error('Error:', error));
+
+    fetch("http://localhost:3005/api/intro")
+    .then(response => {
+        console.log('Response status:', response.status);
+        return response.json();
+    })
+    .then(data => {
+        console.log('Response data:', data);
+        // Rest of your code...
+    })
+    .catch(error => console.error('Error:', error));

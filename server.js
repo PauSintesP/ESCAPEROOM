@@ -8,6 +8,26 @@ const port = 3005;
 fs.readFile('db.json', (err, data) => {
   if (err) throw err;
   let db = JSON.parse(data);
+  app.use(express.static('web'));
+  app.use(cors());
+  app.get("/", (req, res) => {
+    res.sendFile(__dirname + '/web/index.html');
+  });
+  app.get("/html/profes.html", (req, res) => {
+    res.sendFile(__dirname + '/web/html/profes.html');
+  });
+  app.get("/html/horari.html", (req, res) => {
+    res.sendFile(__dirname + '/web/html/horari.html');
+  });
+  app.get("/html/guanyat.html", (req, res) => {
+    res.sendFile(__dirname + '/web/html/guanyat.html');
+  });
+  app.get("/html/coartades.html", (req, res) => {
+    res.sendFile(__dirname + '/web/html/coartades.html');
+  });
+  app.get("/html/coartades.html", (req, res) => {
+    res.sendFile(__dirname + '/web/html/coartades.html');
+  });
 
   const dbData = require('./db.json');
 
