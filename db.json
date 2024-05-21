@@ -1,31 +1,84 @@
 {
-  "intro": [
-    {
-      "text": "S'ha trobat un rastre de sang felina, ha mort el Gat Renat, el Moisès està molt trist, ja que no pot fer servir el pot fer servir per explicar la POO."
-    }
+  "intro":[
+     {
+        "text":"S'ha trobat un rastre de sang felina, ha mort el Gat Renat, el Moisès està molt trist, ja que no pot fer servir el pot fer servir per explicar la POO."
+     }
   ],
-  "professors": [
-    { "id": 1, "nom": "Moisès" },
-    { "id": 2, "nom": "Pau"},
-    { "id": 3, "nom": "Jordi"},
-    { "id": 4, "nom": "Faro"},
-    { "id": 5, "nom": "Juan Luis"}
-  ], 
-  "horari": [
-    { "id": 1, "nom": "Moisès", "image":"../images/moises.png"},
-    { "id": 2, "nom": "Pau", "image":"../images/pau.png"},
-    { "id": 3, "nom": "Jordi","image":"../images/jordi.png"},
-    { "id": 4, "nom": "Faro","image":"../images/faro.png"},
-    { "id": 5, "nom": "Juan Luis","image":"../images/juan.png"}
+  "professors":[
+     {
+        "id":1,
+        "nom":"Moisès"
+     },
+     {
+        "id":2,
+        "nom":"Pau"
+     },
+     {
+        "id":3,
+        "nom":"Jordi"
+     },
+     {
+        "id":4,
+        "nom":"Faro"
+     },
+     {
+        "id":5,
+        "nom":"Juan Luis"
+     }
   ],
-  "culpable": [
-    { "id": 3, "trobat": false}
+  "horari":[
+     {
+        "id":1,
+        "nom":"Moisès",
+        "image":"../images/moises.png"
+     },
+     {
+        "id":2,
+        "nom":"Pau",
+        "image":"../images/pau.png"
+     },
+     {
+        "id":3,
+        "nom":"Jordi",
+        "image":"../images/jordi.png"
+     },
+     {
+        "id":4,
+        "nom":"Faro",
+        "image":"../images/faro.png"
+     },
+     {
+        "id":5,
+        "nom":"Juan Luis",
+        "image":"../images/juan.png"
+     }
   ],
-  "coartades": [
-    { "nom": "Moisès", "text": "Jo vaig estar a la sala de professors millorant el prgtest i fent un mail a Open Ai per tancar el ChatGPT, fallava molt. L'última vegada que vaig veure al Gat Renat estava rondant per la cinquena planta quan vaig marxar amb pressa, perquè havia quedat per dinar amb el Jordi. Sospito del Juan Luis, ja que sempre era molt distant, i del Jordi, que va arribar tard." },
-    { "nom": "Pau", "text": "Jo estava intentat quadrar una excursió a l'empresa catalana de microxips secreta a la sala de professors, després vaig pujat a la cinquena planta per plantejar l'horari amb direcció. Sospito del Faro perquè va pujar alterat."},
-    { "nom": "Jordi", "text": "Jo estava explicant com fer un trigger a un exercici de Base de Dades,  i com que vaig quedar per anar a dinar amb el Moisès vaig sortir abans. Sospito del Pau perquè va marxar una hora abans molt alterat." },
-    { "nom": "Faro", "text": "Jo he pujat a la planta 4 per carregar la bateria del meu altaveu, ja que l'última hora sempre es queda sense càrrega. Jo crec que pot ser qualsevol perquè volien robar-me la idea del farosoft, i del Jordi en específic, ja que tot i que tenia un dinar, a les 14:00 encara estava rondant pel centre." },
-    { "nom": "Juan Luis", "text": "Jo estava explicant com realitzar la pràctica d'infomusic, estava explicant com importar una herència d'un mòdul ja creat per fer una aplicació. Em vaig passar la classe solucionant errors i estava esgotat. Jo sospito del Moisès, la relació que té, tenia amb el seu gat era massa idíl·lica." }
+  "culpable":[
+     {
+        "id":3,
+        "trobat":false
+     }
+  ],
+  "coartades":[
+     {
+        "nom":"Moisès",
+        "text":"Jo vaig estar a la sala de professors millorant el prgtest i fent un mail a Open Ai per tancar el ChatGPT, fallava molt. L'última vegada que vaig veure al Gat Renat estava rondant per la cinquena planta quan vaig marxar amb pressa, perquè havia quedat per dinar amb el Jordi. Sospito del Juan Luis, ja que sempre era molt distant, i del Jordi, que va arribar tard."
+     },
+     {
+        "nom":"Pau",
+        "text":"Jo estava intentat quadrar una excursió a l'empresa catalana de microxips secreta a la sala de professors, després vaig pujat a la cinquena planta per plantejar l'horari amb direcció. Sospito del Faro perquè va pujar alterat."
+     },
+     {
+        "nom":"Jordi",
+        "text":"Jo estava explicant com fer un trigger a un exercici de Base de Dades,  i com que vaig quedar per anar a dinar amb el Moisès vaig sortir abans. Sospito del Pau perquè va marxar una hora abans molt alterat."
+     },
+     {
+        "nom":"Faro",
+        "text":"Jo he pujat a la planta 4 per carregar la bateria del meu altaveu, ja que l'última hora sempre es queda sense càrrega. Jo crec que pot ser qualsevol perquè volien robar-me la idea del farosoft, i del Jordi en específic, ja que tot i que tenia un dinar, a les 14:00 encara estava rondant pel centre."
+     },
+     {
+        "nom":"Juan Luis",
+        "text":"Jo estava explicant com realitzar la pràctica d'infomusic, estava explicant com importar una herència d'un mòdul ja creat per fer una aplicació. Em vaig passar la classe solucionant errors i estava esgotat. Jo sospito del Moisès, la relació que té, tenia amb el seu gat era massa idíl·lica."
+     }
   ]
 }
